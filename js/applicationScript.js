@@ -44,7 +44,7 @@ var init = function() {
 
   client.sendRequest("GET", "todo", "", "", {}, false, function(data, type) { 
     console.log(data);
-}); 
+}, function(error) {}); 
 
 
 };
